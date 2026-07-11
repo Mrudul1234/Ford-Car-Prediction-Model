@@ -53,7 +53,7 @@ Which lines up with how you'd expect used car pricing to work — good to see it
 
 ## Files
 
-- `ml2.ipynb` — the full notebook: EDA → encoding → feature selection → model → evaluation
+- `notebook.ipynb` — the full notebook: EDA → encoding → feature selection → model → evaluation
 - `ford.csv` — raw dataset
 - `test.csv` — processed/scaled test split
 - `ford.jpg` — banner image
