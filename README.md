@@ -22,7 +22,7 @@ A Linear Regression model that predicts the resale price of a used Ford car from
 
 `test.csv` is the held-out test split after encoding and scaling — this is what the notebook's evaluation and manual prediction cells actually run against.
 
-## What's in the notebook (`ml2.ipynb`)
+## What's in the notebook (`notebook.ipynb`)
 
 1. **EDA** — correlation heatmap, scatter/bar plots of price against year, model, fuel type, mileage, before deciding anything about the model.
 2. **Encoding** — one-hot encoded `model`, `fuelType`, `transmission`, since Linear Regression needs numbers, not text categories.
