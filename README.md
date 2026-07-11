@@ -6,7 +6,7 @@ A Linear Regression model that predicts the resale price of a used Ford car from
 
 ## The data
 
-`ford.csv` — 17,966 used Ford listings from the [100,000 UK Used Car Data Set](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes) on Kaggle. Each row is one listing:
+`ford.csv` — 17,966 used Ford listings from the [Ford Car Price Prediction](https://www.kaggle.com/datasets/adhurimquku/ford-car-price-prediction) on Kaggle. Each row is one listing:
 
 | column | meaning |
 |---|---|
@@ -50,15 +50,6 @@ From the Pearson step, the strongest single predictors of price were:
 - `engineSize` → +0.50 (bigger engine, higher price)
 
 Which lines up with how you'd expect used car pricing to work — good to see it actually show up in the numbers instead of just assuming it.
-
-## Running it
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn scipy plotly
-jupyter notebook ml2.ipynb
-```
-
-`ford.csv` needs to be in the same folder as the notebook.
 
 ## Files
 
